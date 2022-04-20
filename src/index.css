@@ -15,3 +15,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.v-line{
+ border-left: thin solid #777879;
+ max-height: 2em;
+}

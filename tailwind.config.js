@@ -4,10 +4,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        'custom-spacing': '.25em'
+      },
       colors: {
         // Configure your color palette here
         'custom-gray': '#2c2d30',
-      },
+        'custom-black': '#151619'
+      }
     },
   },
   plugins: [],
