@@ -4,7 +4,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 
 const navigation = [
-  { name: 'MarkDown', href: '#', current: false },
+  { name: 'MarkDown', href: '/', current: false },
 ]
 
 function classNames(...classes) {
@@ -16,7 +16,7 @@ const NavBar = () => {
     <Disclosure as="nav" className="bg-custom-gray">
       {({ open }) => (
         <>
-          <div className="max-w mx-auto px-0 sm:px-6 lg:px-6">
+          <div className="max-w mx-auto px-0 sm:px-6 lg:px-6 lg:pl-1">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
@@ -46,6 +46,7 @@ const NavBar = () => {
                       </a>
                     ))}
                     <div className="v-line" />
+                    <input type="text" placeholder="README.md" className="bg-transparent text-gray-400 text-sm" />
                   </div>
                 </div>
               </div>

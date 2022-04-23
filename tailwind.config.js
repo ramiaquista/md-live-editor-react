@@ -10,6 +10,8 @@ module.exports = {
       colors: {
         // Configure your color palette here
         'custom-gray': '#2c2d30',
+        'custom-gray-title': '#1e1f22',
+        'custom-vertical-line': '#38393c',
         'custom-black': '#151619'
       }
     },
